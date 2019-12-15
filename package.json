@@ -4,9 +4,10 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "build --linux snap"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/betsegaw/library.our.school",
   "keywords": [
     "Electron",
     "quick",
@@ -17,6 +18,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^7.1.4"
+    "electron": "^2.0.0",
+    "electron-builder": "^20.27.1"
   }
 }
