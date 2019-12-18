@@ -6,7 +6,9 @@ description: |
 base: core18
 confinement: strict
 grade: devel
-
+architectures:
+    - build-on: [ amd64, arm64 ]
+      run-on: [ armhf ]
 apps:
   electron-hello-world-kiosk:
     daemon: simple
